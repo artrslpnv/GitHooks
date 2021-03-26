@@ -1,4 +1,4 @@
-To check GitHooks add hook file to .git/hooks on your local machine
+To check GitHooks add pre-commit file to .git/hooks on your local machine
 
 
 # PatternsCollection
