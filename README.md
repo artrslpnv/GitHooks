@@ -1,3 +1,6 @@
+To check GitHooks add hook file to .git/hooks on your local machine
+
+
 # PatternsCollection
 ![CI](https://github.com/akhtyamovpavel/PatternsCollection/workflows/CI/badge.svg)
 Кодовая база примеров паттернов проектирования по курсу "Технологии программирования, МФТИ"
