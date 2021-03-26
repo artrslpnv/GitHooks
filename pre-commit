@@ -1,0 +1,15 @@
+
+#!/bin/sh
+# Auto-check for pep8 so I don't check in bad code
+FILES=$(git show --name-only | grep -e '\.py$')
+
+if [ -n "$FILES"  ]; then
+    score=$(pylint $FILES)
+    if (($score <9)); then
+        exit 1
+    fi
+fi
+done
+exit 0
+
+
